@@ -1,4 +1,14 @@
 # terraform-eks-project
+### set avail_zone as custom tf environment variable - before apply
+
+    export TF_VAR_avail_zone="us-east-1a"
+
+### set aws configuration through env variables
+
+    export AWS_ACCESS_KEY_ID="accesskey"
+    export AWS_SECRET_ACCESS_KEY="secretkey"
+    export AWS_DEFAULT_REGION="us-east-1"
+
 ### initialize
 
     terraform init
@@ -29,8 +39,9 @@
 
 ### set avail_zone as custom tf environment variable - before apply
 
-    export TF_VAR_avail_zone="us-east-1"
+    export TF_VAR_avail_zone="us-east-1a"
 
 ### for debuggin in TF
     
-    export TF_LOG=TRACE    
+    export TF_LOG=TRACE   
+    

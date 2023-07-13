@@ -45,3 +45,5 @@
     
     export TF_LOG=TRACE   
     
+### Output
+![output](https://github.com/abdullahafeez/terraform-eks-project/assets/123733124/35b7f6ef-5416-4591-9ccc-aada00a54af9)

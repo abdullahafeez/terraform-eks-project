@@ -1,10 +1,10 @@
 # Terraform EKS Provisioning
 
 ## Prerequisites
-    - AWS Cli
-    - Terraform
-    - Kubectl
-    - Aws-iam-authenticator
+- AWS Cli
+- Terraform
+- kubectl
+- aws-iam-authenticator
 
 ### set avail_zone as custom tf environment variable - before apply
 

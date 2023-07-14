@@ -1,4 +1,11 @@
-# terraform-eks-project
+# Terraform EKS Provisioning
+
+## Pre-req
+- AWS Cli
+- Terraform
+- Kubectl
+- Aws-iam-authenticator
+
 ### set avail_zone as custom tf environment variable - before apply
 
     export TF_VAR_avail_zone="us-east-1a"
@@ -19,7 +26,7 @@
 
 ### apply configuration with variables
 
-    terraform apply -var-file terraform.tfvars
+    terraform apply -var-file=terraform.tfvars
 
 ### destroy a single resource
 

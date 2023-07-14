@@ -1,10 +1,10 @@
 # Terraform EKS Provisioning
 
-## Pre-req
-- AWS Cli
-- Terraform
-- Kubectl
-- Aws-iam-authenticator
+## Prerequisites
+    - AWS Cli
+    - Terraform
+    - Kubectl
+    - Aws-iam-authenticator
 
 ### set avail_zone as custom tf environment variable - before apply
 
@@ -27,6 +27,9 @@
 ### apply configuration with variables
 
     terraform apply -var-file=terraform.tfvars
+
+### To Access EKS Cluster
+    `aws eks update-kubeconfig --name myapp-eks-cluster --region us-east-1`
 
 ### destroy a single resource
 

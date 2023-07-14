@@ -29,7 +29,7 @@
     terraform apply -var-file=terraform.tfvars
 
 ### To Access EKS Cluster
-    `aws eks update-kubeconfig --name myapp-eks-cluster --region us-east-1`
+    aws eks update-kubeconfig --name myapp-eks-cluster --region us-east-1
 
 ### destroy a single resource
 
